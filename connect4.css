@@ -15,6 +15,14 @@
 	border-radius: 50%;
 }
 
+.piece.p1 {
+	background-color: red;
+}
+
+.piece.p2 {
+	background-color: blue;
+}
+
 /* column-top is table row of clickable areas for each column */
 
 #column-top td {
@@ -23,4 +31,12 @@
 
 #column-top td:hover {
 	background-color: gold;
+}
+
+.p1-color {
+	border-width: 5px;
+}
+
+.p2-color {
+	border-width: 5px;
 }
